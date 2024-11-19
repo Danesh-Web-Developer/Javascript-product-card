@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: rgb(255, 176, 211);
+    background: radial-gradient(circle, rgba(255, 176, 211, 1) 25%, rgba(255, 86, 214, 1) 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.btn {
+    background: rgb(245, 106, 217);
+    border: none;
+    font-weight: bolder;
+    transition: transform 0.5s ease;
+}
+
+.btn:hover {
+    background: rgb(236, 23, 183);
+    transform: translateY(5px);
+}
+
+.card {
+    transition: transform 0.5s ease;
+    border-radius: 20px;
+}
+
+.card:hover {
+    transform: translateY(-13px);
+}
+
+.card-img-top {
+    padding: 12px 15px 0px 15px;
+    border-radius: 30px;
+}
+
+.card-text {
+    color: rgba(67, 37, 97, 0.861);
+}
